@@ -1,11 +1,14 @@
-import "./App.css";
+import React from "react";
+
 import Login from "./components/Login";
-// import Panic from "./components/Panic";
+
 
 function App() {
   return (
-   <Login />
-  
+    <div>
+      <Login />
+    </div>
+    // <Prac />
   );
 }
 
